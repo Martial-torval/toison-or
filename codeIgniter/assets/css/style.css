@@ -1,0 +1,153 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+	grid-template-columns: 50vw 50vw;
+	grid-template-rows: auto 1fr auto;
+	overflow-x: hidden;
+}
+
+header {
+	grid-column: span 2;
+	height: auto;
+	width: 100%;
+}
+
+
+.article-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: center; */
+	grid-column: span 1;
+	border: 2px solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: 0;
+}
+
+.allArgonautes {
+	grid-column: span 1;
+	border: 2px solid;
+	border-left: 2;
+	border-bottom: none;
+	border-right: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+h1,h2 {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+h2 {
+	font-size: 2vw;
+	margin-top: 10vh;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	position: relative;
+	border-collapse: collapse;
+}
+
+.form {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+td {
+	padding: 20px;
+	text-align: justify;
+		border: 2px;
+		/* border-right: 0;
+		border-top: 0;
+		border-bottom: 0; */
+	border-style: solid;
+	border-color: black;
+}
+
+.comment,.input-name{
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid black;
+ 	width: 72%;
+ 	padding : 20px 10px;
+	font-family: 'helvetica', sans-serif;
+	font-size: 15px;
+}
+
+.input-name {
+ margin-bottom: 20px;
+}
+
+::placeholder {
+	font-family: 'helvetica', sans-serif;
+	}
+
+
+.input-submit {
+	margin-right: auto;
+	margin-left: auto;
+	font-size:18px;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	 /*25px = padding-top 0*/
+	background-color: black;
+	color: #FFF;
+	margin-top: 20px;
+/*	box-shadow: 0 6px gray;*/
+	width: 75%;
+	border: 2px solid white;
+	padding:15px 10px;
+}
+
+
+
+.input-submit:hover {
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	}
+
+footer {
+	grid-column: span 2;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+}
+
+.error-msg {
+	color: red;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin-top : 2rem;
+}
+
+.commentaire_msg_style {
+	font-style: italic;
+	font-size: 12px;
+}
