@@ -4,7 +4,7 @@ Pour pouvoir entrer dans la Wild Code School, il m'a été demandé de réaliser
 
 Pour ce faire, j'avais le choix libre sur les technologies utilisées. 
 
-# Technologies utilisées
+# :computer: Stack technique
 - HTML
 - CSS
 - PHP / CodeIgniter
